@@ -14,7 +14,7 @@ import time
 browser = webdriver.Chrome('data/chromedriver.exe')
 website="https://www.kaggle.com/sudalairajkumar/novel-corona-virus-2019-dataset"
 browser.get(website)
-time.sleep(5)
+time.sleep(1)
 xpath='//*[@id="downloadFile-dataExplorerPreview"]'
 fullxpath='/html/body/main/div/div[2]/div/div/div/div[2]/div[3]/div/div/div[2]/div/div[1]/div/div[2]/div/div[6]/span/a'
 elem=browser.find_element_by_xpath(xpath)
